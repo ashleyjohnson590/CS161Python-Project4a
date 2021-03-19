@@ -1,0 +1,13 @@
+#Author:Ashley Johnson
+#Date: 10/8/2020
+#Description: program's function takes the time in seconds as an argument.
+# The function returns the distance in meters that the object has fallen in that time.
+
+def fall_distance(time):
+    """
+    Docstring: This function calculates the distance under gravity
+    object travels for a given time interval
+    """
+    gravity = 9.8
+    distance = .5 * gravity * time * time
+    return distance
